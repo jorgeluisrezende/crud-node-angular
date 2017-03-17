@@ -1,0 +1,15 @@
+<div class="conteiner">
+      <h1>Cadastrar</h1>
+      <a class="vl" href="#!/">Voltar</a>
+
+        <form class="forms" >
+                <label for="nome">Nome:</label>
+                <input type="text" ng-model="name" name="nome" value=""><br />
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" ng-model="lastname"name="sobrenome" value=""><br />
+                <label for="idade">Idade:</label>
+                <input type="number" ng-model="age" name="idade" value=""><br />
+                <input type="button" ng-click="send()" name="cadastrar" value="cadastrar">
+        </form>
+        {{msg}}
+</div>

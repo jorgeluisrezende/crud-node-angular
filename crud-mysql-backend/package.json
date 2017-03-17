@@ -1,0 +1,19 @@
+{
+  "name": "CRUD SIMPLES PARA SQL/MYSQL",
+  "version": "0.0.1",
+  "description": "\"CRUD PARA BANCO DE DADOS SQL\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Luis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.0.0-rc.2"
+  }
+}

@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #e74c3c;
+}
+.menu{
+  width: 40%;
+  height: 300px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+.menu ul{
+  margin-top: 60px;
+}
+.menuIten{
+  display: inline;
+}
+.menuItenA{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.conteiner{
+  width: 50%;
+  height: 300px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+.forms{
+  font-size: 20px;
+  text-align: center;
+  text-align: right;
+  float: left;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.vl{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  color: #fff;
+  float: left;
+  margin: 0;
+  position: relative;
+  border: 1px solid;
+}
+.forms input{
+  border-radius: 5px;
+  border: 1px solid #2c3e50;
+  background: #fff;
+  height: 25px;
+  width: 200px;
+}
+.d{
+  position: relative;
+  float: left;
+  margin-left: -100;
+}
+
+.t{
+  border: 1px solid #fff;
+  border-style: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+.t th {
+    height: 30px;
+}
+#tab{
+  position: relative;
+  margin-top: 100px;
+}

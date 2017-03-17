@@ -1,0 +1,15 @@
+<div class="conteiner">
+  <h1>Atualizar</h1>
+      <a class="vl" href="#!/">Voltar</a>
+    <form class="forms">
+          <label>Digite o nome do registro a ser atualizado</label><br />
+             <input type="text" ng-model="name" name="name" value=""><br />
+               <label>Digite as Novas informaçoes</label><br />
+                 <label for="sobrenome">Sobrenome:</label>
+               <input type="text" ng-model="lastname" name="sobrenome" value=""><br />
+             <label for="idade">idade:</label>
+           <input type="text" ng-model="age" name="idade" value=""><br />
+         <input type="button" ng-click="delete()" name="att" value="Atualizar">
+    </form>
+    {{msg}}
+</div>
